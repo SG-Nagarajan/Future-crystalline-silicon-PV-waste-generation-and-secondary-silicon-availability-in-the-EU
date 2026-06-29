@@ -21,7 +21,7 @@ loss=np.zeros(len(inst.year_col))
 
 def check_login():
     password = st.text_input("Enter password", type="password")
-    if password == "eolpvestimation":
+    if password == "EoLPV":
         return True
     return False
 
