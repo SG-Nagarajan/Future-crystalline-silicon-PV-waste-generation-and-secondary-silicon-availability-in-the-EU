@@ -56,9 +56,9 @@ st.markdown(
         <div class="overlay"></div>
         <div class="text">
         <h1 style="white-space: nowrap;">
-            Future crystalline silicon PV waste generation and secondary silicon availability in the European Union
+            EoL PV in the EU
         </h1
-        <h1>Forecast Analysis</h1>
+        <h1>Future crystalline silicon PV waste generation and secondary silicon availability in the European Union</h1>
         </div>
     </div>
     """,
