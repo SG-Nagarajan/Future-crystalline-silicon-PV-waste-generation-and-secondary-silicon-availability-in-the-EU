@@ -39,8 +39,9 @@ graphviz
 
 Open a terminal in the project directory and execute:
 
+```bash
 streamlit run main.py
-
+```
 
 This will execute the code and take you to your web browser,
 
