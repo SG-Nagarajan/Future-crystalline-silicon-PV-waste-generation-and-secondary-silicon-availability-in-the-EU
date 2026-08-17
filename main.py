@@ -19,14 +19,6 @@ loss=np.zeros(len(inst.year_col))
 
 
 
-def check_login():
-    password = st.text_input("Enter password", type="password")
-    if password == "EoLPV":
-        return True
-    return False
-
-if not check_login():
-    st.stop()
 
 
 st.markdown("""
@@ -44,28 +36,8 @@ st.markdown("""
     color: #ffcc00;
 }
 
-/* ✅ Moving text */
-.marquee-text {
-    display: inline-block;
-    white-space: nowrap;
-    padding-left: 100%;
-    animation: scroll-right 18s linear infinite;
-    font-size: 16px;
-}
 
-/* ✅ Animation */
-@keyframes scroll-right {
-    0%   { transform: translateX(0%); }
-    100% { transform: translateX(-100%); }
-}
 
-</style>
-
-<div class="marquee-container">
-    <div class="marquee-text">
-        This is intended for reviewers' view
-    </div>
-</div>
 """, unsafe_allow_html=True)
 
 #========================about quasar"
@@ -84,7 +56,7 @@ st.markdown(
         <div class="overlay"></div>
         <div class="text">
         <h1 style="white-space: nowrap;">
-            End-of-Life PV Waste in the EU
+            Future crystalline silicon PV waste generation and secondary silicon availability in the European Union
         </h1
         <h1>Forecast Analysis</h1>
         </div>
