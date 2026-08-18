@@ -92,8 +92,4 @@ python -m streamlit run main.py
 If this software contributes to your work, please cite the associated publication and the Zenodo record linked to this repository.
 
 ---
-
-## Contact
-
-nagarajan.ganesan@sintef.no
-For questions regarding the model and methodology, please contact the corresponding author.
+Please refer to the paper "Future crystalline silicon PV waste generation and secondary silicon availability in the European Union" for more details about the model and methodology.
